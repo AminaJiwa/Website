@@ -1,0 +1,74 @@
+/*Colours the buttons*/
+button.readMoreButtonMainPage{
+  background-color:pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+/*Making the navigationlinks colour change*/
+a.nav-link:hover{
+  background-color:pink;
+  color: white;
+
+}
+/*Making the button colour change*/
+button.readMoreButtonMainPage:hover {
+background-color:cyan;
+color: white;
+}
+
+/*Taking underline off button links*/
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/*Resizing carousel*/
+.w-100 {
+  width: 100% !important;
+  height: 90vh;
+}
+
+
+/*Making the social media icons bigger as before they would only stack on top of each other and not display on one line*/
+  .divMain{
+    width: 600px;
+  height: 100px;
+  box-sizing: border-box;
+
+  }
+
+
+/*Colours the social media icons when you hover over them :)*/
+  .socialMediaIconCyan:hover {
+    background-color:pink;
+
+  }
+
+  .socialMediaIconPink:hover {
+    background-color:cyan;
+
+  }
+/*Colours the submit button on the form for contact*/
+  button.buttonForm{
+    background-color:pink;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+  button.buttonForm:hover {
+  background-color:cyan;
+  color: black;
+  }
